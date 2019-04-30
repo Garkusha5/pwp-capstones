@@ -345,7 +345,7 @@ class TomeRater(object):
         method which iterates through all of the keys in the self.books (these are Book objects) and prints them
         """
         for key in self.books.keys():
-            print(key) # this will print the object though? May need to add a __repr__ to Book
+            print(key)
 
     def print_users(self):
         """ 
